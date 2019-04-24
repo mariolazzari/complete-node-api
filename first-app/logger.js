@@ -1,6 +1,5 @@
 const EventEmitter = require("events");
-
-let url = "http://mylogger.io/log";
+const url = "http://mylogger.io/log";
 
 class Logger extends EventEmitter {
   log(message) {
