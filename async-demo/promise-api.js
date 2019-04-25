@@ -20,4 +20,5 @@ const p2 = new Promise(resolve => {
 });
 
 Promise.all([p1, p2]).then(res => console.log(res));
+// asap first reolved
 Promise.race([p1, p2]).then(res => console.log(res));
